@@ -40,19 +40,24 @@ public class Calculadora {
         return fa;
 
     }
+
     public static float potencia_10(float a){
         float b = (float) Math.pow(10,a);
         return b;
     }
+
     public static float raiz(float a){
         return (float)Math.sqrt(a);
     }
+
     public static float signo(float a){
         return -1*a;
     }
+
     public static float log(float a){
         return (float) Math.log(a);
     }
+
     public static float coma(float a, float b){
        int cont = 0;
        int c = (int)b;
